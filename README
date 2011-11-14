@@ -1,1 +1,10 @@
 What this script does is download last 10 pages from recent torrents in a category (TV shows and Movies) and counts how many times which of them was downloaded. This was a feature i was missing when you want to see what was new and hot for lets say last day.
+
+pirate.py - loads files sequentially, then process them, spits out plain text
+
+pirate_multi.py - uses threads for fetching pages and produces plain text
+
+pirates_multi_html.py - uses threads, and make html page with links
+
+pirates.sh - activates virtualenv with BeatifulSoup, requests, jinja2, 
+  then starts script, and opens the page in chrome browser
